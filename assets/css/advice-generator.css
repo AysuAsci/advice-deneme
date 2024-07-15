@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=IBM+Plex+Sans:wght@200;300;500&family=Manrope:wght@400;800&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@300&family=REM:wght@300&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap');
+
+body{
+  background-color: #202733;
+  display: grid;
+  place-items:center;
+  margin:0;
+  height:100px;
+}
+#container{
+  background-color: #313A48;
+  width:25rem;
+  height:15rem;
+  padding:2rem;
+  border-radius:1rem;
+}
+h1{
+  color:#53FFAA;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top:-2.5rem;
+  font-weight:800;
+  font-size:0.8rem;
+  letter-spacing:0.3rem;
+}
+h2{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom:3rem;
+  color:white;
+  font-size:1.3rem;
+  
+}
+
+#pause,#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position:relative;
+  top:1rem;
+}
+#pause img{
+  width:25rem;
+}
+#dice{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: #52ffa8;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  position:absolute;
+  top:17rem;
+}
+
+@media (max-width:470px) {
+  .container{
+      width:70vw;
+  }
+
+  .pause img{
+      width:18rem;
+  }
+  h2{
+      font-size:1rem;       
+  }
+}
+@media (max-width:330px) {
+  .container{
+      width:60vw;
+  }
+
+  .pause img{
+      width:13rem;
+  }
+  h1{
+      font-size:0.5rem;  
+  }
+  h2{
+      font-size:0.9rem;       
+  }
+  .icon{
+      height: 3.5rem;
+      width: 3.5rem;
+  }
+}
